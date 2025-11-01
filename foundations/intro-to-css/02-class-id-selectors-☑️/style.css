@@ -1,0 +1,24 @@
+/* Add CSS Styling */
+
+.odd-numbered{
+    background-color: pink;
+    font-family: "Verdana", "DejaVu Sans" , sans-serif;
+}
+
+#second-element{
+    color : blue;
+    font-size: 36px;
+}
+
+.third-element{
+    font-size: 24px;
+}
+#fourth-element{
+    background-color: lightgreen;
+    font-size:24px;
+    font-weight: bold;
+}
+
+/*
+we can simply delete the fourth-elements font-size and use the class on the fourth element
+*/
