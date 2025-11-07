@@ -1,0 +1,96 @@
+/* Imports the Besley font family from Google Fonts with regular 400 and italic 900 weights */
+@import url('https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400;1,900&display=swap');
+
+/* Base body styles */
+body {
+  margin: 0;                /* Removes default margin from the body */
+  background: #eee;         /* Sets a light gray background color */
+  font-family: Besley, serif; /* Uses imported Besley font with serif as fallback */
+}
+
+/* Header container styles */
+.header {
+  background: white;        /* White background for header */
+  border-bottom: 1px solid #ddd; /* Light gray border at bottom */
+  box-shadow: 0 0 8px rgba(0,0,0,.1); /* Subtle shadow effect */
+
+  /*Stuff i did
+
+  display: flex;           /* Makes header a flex container 
+  align-items: center;     /* Centers items vertically 
+  justify-content: space-between; /* Spreads items across the header 
+  padding: 8px;           /* Adds spacing inside the header */
+}
+
+/* Profile image styles */
+.profile-image {
+  background: rebeccapurple; /* Purple background for profile image */
+  box-shadow: inset 2px 2px 4px rgba(0,0,0,.5); /* Inner shadow effect */
+  border-radius: 50%;      /* Makes image circular */
+  width: 48px;            /* Sets width of profile image */
+  height: 48px;           /* Sets height of profile image */
+
+  /*Stuff i did
+  margin-right: 8px;      /* Adds spacing to the right of image */
+}
+
+/* Logo styles */
+.logo {
+  color: rebeccapurple;    /* Purple color for logo text */
+  font-size: 32px;         /* Large font size for logo */
+  font-weight: 900;        /* Extra bold font weight */
+  font-style: italic;      /* Italicizes the logo text */
+  /*Stuff i did*/
+
+  margin-left: 8px;        /* Adds spacing to the left of logo */
+}
+
+/* Button styles */
+button {
+  border: none;            /* Removes default button border */
+  border-radius: 8px;      /* Rounds button corners */
+  background: rebeccapurple; /* Purple background for button */
+  color: white;            /* White text color */
+  padding: 8px 24px;       /* Adds internal spacing to button */
+  /* Stuff i did
+
+  margin-right: 8px;       /* Adds spacing to the right of button  */
+}
+
+/* Link styles */
+a {
+  text-decoration: none;   /* Removes underline from links */
+  color: rebeccapurple;    /* Purple color for link text */
+}
+
+/* Navigation list styles */
+ul {
+  list-style-type: none;   /* Removes default bullet points */
+  /*  Stuff i did
+  display: flex;           /* Makes list a flex container 
+  gap: 16px;              /* Adds spacing between list items 
+  flex: 2;                /* Allows list to grow twice as much as other items 
+  padding: 16px;          /* Adds spacing around the list */ 
+}
+
+
+/*Corrected Version*/
+.header {
+  display: flex;                   /* Makes header a flex container */
+  align-items: center;             /* Centers items vertically within the header */
+  justify-content: space-between; /* Distributes left and right sections to edges */
+  padding: 8px;                   /* Adds internal spacing inside the header */
+}
+
+ul {
+  display: flex;                  /* Displays list items in a horizontal row */
+  gap: 16px;                     /* Adds equal spacing between list items */
+  margin: 0;                     /* Removes default margin around the list */
+  padding: 0;                    /* Removes default padding inside the list */
+}
+
+.left, .right {
+  display: flex;                 /* Makes these containers flex to align children */
+  align-items: center;           /* Vertically centers children within each container */
+  gap: 16px;                    /* Adds spacing between child elements */
+}
