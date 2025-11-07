@@ -39,8 +39,10 @@ body {
   display: flex;
   justify-content: center;
   gap: 52px;
+  border:1px solid black;
 }
 
 .info {
   max-width: 200px;
+  border:1px solid black;
 }
