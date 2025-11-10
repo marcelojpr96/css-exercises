@@ -65,7 +65,12 @@ body{
   flex-direction:column;
 }
 
-.main-container, .card-container{
+.main-container{
+  flex:1;
+  display:flex;
+  justify-content: space-between;
+}
+.card-container{
   flex:1;
   display:flex;
   justify-content: space-between;
