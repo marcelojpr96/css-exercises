@@ -104,24 +104,24 @@ a{
   width:auto;
   animation: spiniboy 10s ease-in-out  infinite alternate ;
 }
-/*
-@keyframes spiniboy {
+
+#test2{
+  display: inline-block;
+  animation: 3s ease-in-out newspiniboy infinite ;
+
+}
+
+@keyframes newspiniboy {
   0%{
-    transform: rotate(0deg);
-  }
-  25%{
-    transform: rotate(28deg);
+    transform: rotate(-28deg)
   }
   50%{
-    transform: rotate(0deg);
-  }
-  75%{
-    transform: rotate(-28deg);
+    transform: rotate(28deg);
   }
   100%{
-    transform: rotate(0deg);
+    transform: rotate(-28deg);
   }
-}*/
+}
 
 @keyframes spiniboy {
 
