@@ -6,6 +6,7 @@ body {
 
 .header {
   height: 72px;
+  max-height: 72px;
   background: darkmagenta;
   color: white;
 }
@@ -88,3 +89,51 @@ a{
   align-items: center;
   justify-content: center;
 }
+#hidden-brethren{
+  visibility: hidden;
+  position:relative;
+}
+#test{
+  color:black;
+  position:absolute;
+  transform-origin: center;
+  display: inline-block;
+  top:72px;
+  left:18px;
+  z-index:1000;
+  width:auto;
+  animation: spiniboy 10s ease-in-out  infinite alternate ;
+}
+/*
+@keyframes spiniboy {
+  0%{
+    transform: rotate(0deg);
+  }
+  25%{
+    transform: rotate(28deg);
+  }
+  50%{
+    transform: rotate(0deg);
+  }
+  75%{
+    transform: rotate(-28deg);
+  }
+  100%{
+    transform: rotate(0deg);
+  }
+}*/
+
+@keyframes spiniboy {
+
+  0% {
+    transform: translateX(0) scaleX(1);
+  }
+  50% {
+   
+  }
+  100% {
+     transform: translateX(200%) scaleX(1);
+  }
+}
+
+  
