@@ -25,6 +25,7 @@ img {
   background: #eee;
 }
 
+<<<<<<< Updated upstream:foundations-✅/flex-✅/04-flex-information-✅/style.css
 
 /*my code*/
 
@@ -45,4 +46,46 @@ body{
 
 .item{
   max-width: 200px;
+=======
+/*changes*/
+
+body{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.title{
+  align-self: center;
+  text-align: center;
+  padding-bottom: 32px;
+}
+
+.information{
+  display: flex;
+  gap:52px;
+  flex-flow: row;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  width:100%
+
+}
+img{
+  
+  height: auto;
+}
+.item{
+  width:200px;
+  border: 1px solid black;
+  display:flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.text{
+  text-align: center;
+>>>>>>> Stashed changes:foundations/flex/04-flex-information/style.css
 }
